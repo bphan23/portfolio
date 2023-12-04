@@ -3,7 +3,7 @@ import Home from '../sections/Home';
 
 function Navbar() {
   return (
-    <header>
+    <header id="header-id">
       <nav>
         <ul class="nav-bar">
           <li class="logo"><a href="#">Bryan Phan</a></li>
