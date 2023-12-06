@@ -12,6 +12,7 @@ function Projects() {
             <div class="div-one">
               <img id="cb-7-forms" src={process.env.PUBLIC_URL + '/images/productivity.jpg'} alt="7 forms of respect project" />
             </div>
+
             <div class="div-two">
               <div class="project-item-title">
                 <h3>7 Forms of Respect Tool</h3>
@@ -32,6 +33,7 @@ function Projects() {
                 <button><a href="https://ischool.uw.edu/news/2022/05/capstone-team-helps-company-save-valuable-time?utm_campaign=meetedgar&utm_medium=social&utm_source=meetedgar.com" target="_blank" rel="noreferrer">Article</a></button>
               </div>
             </div>
+
           </div>
 
           <div id="proj-item-2" class="project-item" data-aos="fade-left">
@@ -53,6 +55,7 @@ function Projects() {
               </div>
               <div class="project-item-navigation">
                 <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">Website</a></button>
+                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">GitHub</a></button>
               </div>
             </div>
           </div>
@@ -78,6 +81,7 @@ function Projects() {
               </div>
               <div class="project-item-navigation">
                 <button><a href="https://youtu.be/TSX2fe7X_zM?t=231" target="_blank" rel="noreferrer">Demo</a></button>
+                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">GitHub</a></button>
               </div>
             </div>
           </div>
@@ -101,6 +105,7 @@ function Projects() {
               </div>
               <div class="project-item-navigation">
                 <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">Demo</a></button>
+                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">GitHub</a></button>
               </div>
             </div>
           </div>
