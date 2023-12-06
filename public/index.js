@@ -1,4 +1,3 @@
-
 (function() {
 
   window.addEventListener('load', init);
@@ -21,22 +20,22 @@
   function changeTheme() {
     let body = qs('body');
     let themeImage = id('theme-image');
-    let headerImage = qs('header');
-    console.log(headerImage);
     // if light theme switch to dark theme
     if(body.classList.contains('light-theme')) {
       body.classList.replace('light-theme', 'dark-theme');
       id('experience').classList.replace('light-gray', 'dark-gray');
       id('contact').classList.replace('light-gray', 'dark-gray');
       id('thanks-content-section').classList.replace('light-gray', 'dark-gray');
-      themeImage.src = './images/sun.png'; // change image
+      themeImage.src = './portfolio/images/sun.png'; // change image
+      themeImage.alt = 'sun';
     } else {
       // otherwise dark
       body.classList.replace('dark-theme', 'light-theme');
       id('experience').classList.replace('dark-gray', 'light-gray');
       id('contact').classList.replace('dark-gray', 'light-gray');
       id('thanks-content-section').classList.replace('dark-gray', 'light-gray');
-      themeImage.src = './images/moon.png'; // change image
+      themeImage.src = './portfolio/images/moon.png'; // change image
+      themeImage.alt = 'moon';
     }
   }
 

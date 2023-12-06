@@ -3,7 +3,7 @@
 function About() {
   return (
     <section id="about" data-aos="fade-up">
-      <div className="title">
+      <div class="title">
           <h2>About Me</h2>
         </div>
 
@@ -17,7 +17,9 @@ function About() {
               accessible user friendly web applications. I have experience developing
               web applications in the client-side, server-side, and full-stack.
             </p>
+            <br/>
             <p>I recently graduated from the University of Washington with a degree in Informatics.</p>
+            <br/>
             <p>
               Outside of programming I enjoy cooking, spending time with family, and
               playing basketball.

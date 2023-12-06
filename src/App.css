@@ -129,11 +129,11 @@ p {
 
 #about-description {
   width: 50%;
-  padding: 10px;
+  margin-left: 30px;
 }
 
 #about-description p {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
@@ -243,7 +243,17 @@ p {
   text-align: center;
 }
 
-.div-one img {
+.project-item-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.project-item-title, .project-item-description {
+  margin-bottom: 15px;
+}
+
+.div-one img, .hidden-div-one img {
   border-radius: 10%;
   overflow: hidden;
   width: 100%;
@@ -261,7 +271,15 @@ p {
 }
 
 .div-two p {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+#proj-item-2 .div-two p:nth-child(2), #proj-item-3 .div-two p:nth-child(2), #proj-item-4 .div-two p:nth-child(2) {
+  font-style: italic;
+}
+
+.campus-paths {
+  border: 1px solid #F0F0F0;
 }
 
 #projects button {
@@ -282,10 +300,9 @@ p {
   background-color: blue;
 }
 
-#proj-item-1, #proj-item-2, #proj-item-3 {
+#proj-item-1, #proj-item-2, #proj-item-3, #proj-item-4 {
   margin-bottom: 40px;
 }
-
 /* resume section styling -------------------------------------------------- */
 #resume {
   display: flex;
@@ -430,12 +447,42 @@ footer > p {
 /* Extra small devices (phones, 576px and down) */
 @media (max-width: 576px) {
   #about-image > img {
-    height: 250px;
+    height: 200px;
   }
 
-  .div-one, .div-two p, #proj-item-1 button:nth-of-type(2) {
+  #about-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about-description p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .skill-item {
+    height: 40px;
+  }
+
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-one, .project-item-description {
     display: none;
   }
+
+  .project-item-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -444,13 +491,22 @@ footer > p {
     height: 300px;
   }
 
+  #about-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about-description p {
+    font-size: 12px;
+    text-align: center;
+  }
+
   .project-item {
     display: flex;
     flex-direction: column;
-  }
-
-  .div-one, .div-two p, #proj-item-1 button:nth-of-type(2) {
-    display: none;
+    align-items: center;
   }
 
   #linkedin-contact, #email-contact, #github-contact {
@@ -465,11 +521,23 @@ footer > p {
   footer > p {
     font-size: 14px;
   }
+  .div-one, .project-item-description {
+    display: none;
+  }
+
+  .hidden-div-one {
+    display: block;
+  }
+
+  .project-item-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
 }
 
 /* Medium / Small devices (tablets, 768px and down) */
-@media (max-width: 768px) {
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -482,13 +550,37 @@ footer > p {
     font-size: 20px;
   }
 
+  #about-description p {
+    font-size: 16px;
+    text-align: left;
+  }
+
   .skill-item {
     height: 80px;
+  }
+
+  .div-one {
+    display: none;
+  }
+
+  .hidden-div-one, .project-item-description{
+    display: block;
+  }
+
+  .project-item-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  #about-description p {
+    font-size: 18px;
+  }
 
   .project-item {
     display: flex;
@@ -496,12 +588,15 @@ footer > p {
     text-align: left;
   }
 
-  .div-one, .div-two p {
-    display: block;
+  .hidden-div-one {
+    display: none;
   }
 
-  #proj-item-1 button:nth-of-type(2) {
-    display: inline;
+  .project-item-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
   }
 }
 
@@ -518,6 +613,14 @@ footer > p {
   #info-picture {
     width: 80%;
   }
+
+  #about-description p {
+    font-size: 20px;
+  }
+
+  .div-one {
+    display: block;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -529,13 +632,8 @@ footer > p {
   #info-picture {
     width: 90%;
   }
-}
-/* etc styling ------------------------------------------------------------- */
-#capstone-spotlight {
-  color: #0C77F3;
-  text-decoration: none;
-}
 
-#capstone-spotlight:hover, #feedback-input-header {
-  text-decoration: underline;
+  #about-description p {
+    font-size: 22px;
+  }
 }
