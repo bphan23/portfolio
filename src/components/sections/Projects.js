@@ -42,7 +42,7 @@ function Projects() {
             </div>
             <div class="div-two">
               <div class="project-item-title">
-                <h3>Out The Box, Sneaker Service</h3>
+                <h3>Out The Box</h3>
               </div>
               <div class="hidden-div-one">
                 <img src={process.env.PUBLIC_URL + '/images/jordan-11.jpg'} alt="out the box project"/>
@@ -54,7 +54,6 @@ function Projects() {
                 <p class="tech-used">React, JavaScript, HTML, CSS, and Stripe Payment API</p>
               </div>
               <div class="project-item-navigation">
-                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">Website</a></button>
                 <button><a href="https://github.com/RobelGeb/otb-rentals" target="_blank" rel="noreferrer">GitHub</a></button>
               </div>
             </div>

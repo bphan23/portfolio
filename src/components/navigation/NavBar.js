@@ -1,3 +1,4 @@
+import Home from '../sections/Home';
 import './NavBar.css';
 
 function Navbar() {
@@ -18,14 +19,7 @@ function Navbar() {
           <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
         </ul>
       </nav>
-      <div id="intro-div">
-        <h1>Hi! <span class="wave">👋</span> I'm Bryan Phan</h1>
-        <p id="animated-text"></p>
-      </div>
-
-      <div id="theme-btn">
-        <img id="theme-image" src={process.env.PUBLIC_URL + '/images/moon.png'} alt="moon" />
-      </div>
+      <Home/>
     </header>
   );
 }

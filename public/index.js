@@ -26,7 +26,9 @@
       id('experience').classList.replace('light-gray', 'dark-gray');
       id('contact').classList.replace('light-gray', 'dark-gray');
       id('thanks-content-section').classList.replace('light-gray', 'dark-gray');
-      themeImage.src = './images/sun.png'; // change image
+
+      // change image *** works on local but not when I push to host
+      themeImage.src = './portfolio/images/sun.png';
       themeImage.alt = 'sun';
     } else {
       // otherwise dark
@@ -34,7 +36,8 @@
       id('experience').classList.replace('dark-gray', 'light-gray');
       id('contact').classList.replace('dark-gray', 'light-gray');
       id('thanks-content-section').classList.replace('dark-gray', 'light-gray');
-      themeImage.src = './public/images/moon.png'; // change image
+      // change image *** works on local but not when I push to host
+      themeImage.src = './portfolio/images/moon.png';
       themeImage.alt = 'moon';
     }
 
