@@ -37,6 +37,8 @@
       themeImage.src = './portfolio/images/moon.png'; // change image
       themeImage.alt = 'moon';
     }
+
+    console.log(themeImage.src);
   }
 
   // ----------------------------------------------------------
