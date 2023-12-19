@@ -1,9 +1,8 @@
 import './NavBar.css';
-import Home from '../sections/Home';
 
 function Navbar() {
   return (
-    <header id="header-id">
+    <header>
       <nav>
         <ul class="nav-bar">
           <li class="logo"><a href="#">Bryan Phan</a></li>
@@ -19,7 +18,14 @@ function Navbar() {
           <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
         </ul>
       </nav>
-      <Home/>
+      <div id="intro-div">
+        <h1>Hi! <span class="wave">👋</span> I'm Bryan Phan</h1>
+        <p id="animated-text"></p>
+      </div>
+
+      <div id="theme-btn">
+        <img id="theme-image" src={process.env.PUBLIC_URL + '/images/moon.png'} alt="moon" />
+      </div>
     </header>
   );
 }

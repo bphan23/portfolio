@@ -77,16 +77,14 @@
 /* Media Queries ----------------------------------------------------------- */
 /* Extra small devices (phones, 576px and down) */
 @media (max-width: 576px) {
-
   header {
     background-color: #333;
-    height: 170px;
+    height: 250px;
   }
 
   #theme-btn {
-    bottom: 80%;
+    bottom: 81%;
   }
-
 
   #theme-image {
     height: 40px;
@@ -111,11 +109,11 @@
 @media (min-width: 576px) {
   header {
     background-color: #333;
-    height: 255px;
+    height: 300px;
   }
 
   #theme-btn {
-    bottom: 70%;
+    bottom: 77%;
   }
 
   #intro-div {
@@ -131,7 +129,6 @@
   #intro-div p {
     font-size: 10px;
   }
-
 }
 
 /* Medium / Small devices (tablets, 768px and down) */
@@ -178,11 +175,11 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   header {
-    height: 340px;
+    height: 500px;
   }
 
   #theme-btn {
-    bottom: 60%;
+    bottom: 62%;
   }
 
   #theme-image {
@@ -202,13 +199,12 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
   header {
-    height: 425px;
+    height: 600px;
   }
 
   #theme-btn {
-    bottom: 50%;
+    bottom: 55%;
   }
 
   #intro-div h1 {
@@ -227,11 +223,11 @@
     background-image: url('/public/images/seattle.jpg');
     background-size: cover;
     background-position-y: 25%;
-    height: 850px;
+    height: 800px;
   }
 
   #theme-btn {
-    bottom: 0;
+    bottom: 7%;
   }
 
   #intro-div {

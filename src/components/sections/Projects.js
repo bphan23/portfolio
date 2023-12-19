@@ -51,11 +51,11 @@ function Projects() {
                 <p>Collaborated within a team of two to develop a sneaker service platform where users
                   could search, filter and purchase the most sought after sneakers in today’s market</p>
                 <br/>
-                <p>React, JavaScript, HTML, CSS, and Stripe Payment API</p>
+                <p class="tech-used">React, JavaScript, HTML, CSS, and Stripe Payment API</p>
               </div>
               <div class="project-item-navigation">
                 <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">Website</a></button>
-                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">GitHub</a></button>
+                <button><a href="https://github.com/RobelGeb/otb-rentals" target="_blank" rel="noreferrer">GitHub</a></button>
               </div>
             </div>
           </div>
@@ -77,11 +77,9 @@ function Projects() {
                   go on other user profiles
                 </p>
                 <br/>
-                <p>JavaScript, HTML, CSS, Node.js, Express.js, MongoDB, and Microsoft Azure Authentication</p>
+                <p class="tech-used">JavaScript, HTML, CSS, Node.js, Express.js, MongoDB, and Microsoft Azure Authentication</p>
               </div>
               <div class="project-item-navigation">
-                <button><a href="https://youtu.be/TSX2fe7X_zM?t=231" target="_blank" rel="noreferrer">Demo</a></button>
-                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">GitHub</a></button>
               </div>
             </div>
           </div>
@@ -101,11 +99,9 @@ function Projects() {
                 <p>Implemented a full-stack application that allows users to select a starting and ending building from the University of Washington campus, which generates the shortest path between the two building
                 </p>
                 <br/>
-                <p>Java, TypeScript, React, HTML, CSS, Spark Java</p>
+                <p class="tech-used">Java, TypeScript, React, HTML, CSS, Spark Java</p>
               </div>
               <div class="project-item-navigation">
-                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">Demo</a></button>
-                <button><a href="https://github.com/bphan23" target="_blank" rel="noreferrer">GitHub</a></button>
               </div>
             </div>
           </div>

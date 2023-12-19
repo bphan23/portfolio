@@ -13,7 +13,7 @@ function About() {
           </div>
           <div id="about-description">
             <p>
-              My name is Bryan Phan and I'm passoniate about designing and developing
+              Hi! My name is Bryan Phan and I'm passoniate about designing and developing
               accessible user friendly web applications. I have experience developing
               web applications in the client-side, server-side, and full-stack.
             </p>
