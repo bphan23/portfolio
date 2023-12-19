@@ -26,7 +26,7 @@
       id('experience').classList.replace('light-gray', 'dark-gray');
       id('contact').classList.replace('light-gray', 'dark-gray');
       id('thanks-content-section').classList.replace('light-gray', 'dark-gray');
-      themeImage.src = './portfolio/images/sun.png'; // change image
+      themeImage.src = './images/sun.png'; // change image
       themeImage.alt = 'sun';
     } else {
       // otherwise dark
@@ -34,7 +34,7 @@
       id('experience').classList.replace('dark-gray', 'light-gray');
       id('contact').classList.replace('dark-gray', 'light-gray');
       id('thanks-content-section').classList.replace('dark-gray', 'light-gray');
-      themeImage.src = './portfolio/images/moon.png'; // change image
+      themeImage.src = './public/images/moon.png'; // change image
       themeImage.alt = 'moon';
     }
 
