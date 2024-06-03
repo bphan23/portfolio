@@ -11,7 +11,7 @@
     id("contact").classList.add("light-gray");
     id("thanks-content-section").classList.add("light-gray");
     // when change button is clicked - toggles between row style and column style
-    id("theme-image").addEventListener("click", changeTheme);
+    // id("theme-image").addEventListener("click", changeTheme);
   }
 
   // ----------------------------------------------------------
