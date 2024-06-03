@@ -4,7 +4,7 @@ function Thanks() {
     <section id="thanks-content-section">
       <div id="thanks-content-title" data-aos="fade-down">
         <h3>Thank You For Visiting My Website!</h3>
-        <p>I developed this website using these technologies:</p>
+        <p>I developed this website myself in Visual Studio Code using:</p>
       </div>
 
       <div id="thanks-grid-container" data-aos="fade-down">
@@ -16,7 +16,7 @@ function Thanks() {
               alt="react logo"
             />
           </a>
-          <p>React</p>
+          <p>React.js</p>
         </div>
         <div class="grid-item">
           <a

@@ -1,5 +1,5 @@
- /* .nav-bar, #header, nav, #home, #about, #experience, #contact, #resume, #thanks-content-section */
- * {
+/* .nav-bar, #header, nav, #home, #about, #experience, #contact, #resume, #thanks-content-section */
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,19 +7,29 @@
 
 /* Gets rid of extra white space on side of screen */
 html {
+  font-size: 62.5%;
   overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-size: 1.6rem;
 }
 
 /* ------------------------------------------------------------------------- */
 
-h1, h2, h3, a {
+h1,
+h2,
+h3,
+a {
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
 }
 
 h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -37,8 +47,9 @@ a {
 
 p {
   line-height: 1.7;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -73,32 +84,6 @@ p {
   text-decoration: underline;
   margin: 0;
   padding: 0;
-}
-
-#theme-btn {
-  position: absolute;
-  left: 0;
-  top: 70px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.light-theme {
-  background-color: white;
-  color: rgb(41, 41, 41);
-}
-
-.dark-theme {
-  background-color: #1D1D1D;
-  color: white;
-}
-
-.light-gray {
-  background-color: #F0F0F0;
-}
-
-.dark-gray {
-  background-color: #5f5f5f;
 }
 
 /* about section styling --------------------------------------------------- */
@@ -193,7 +178,7 @@ p {
 }
 
 #express-logo:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .skill-item {
@@ -227,7 +212,8 @@ p {
   align-items: center;
 }
 
-.div-one, .div-two {
+.div-one,
+.div-two {
   width: 40%;
 }
 
@@ -238,19 +224,19 @@ p {
   align-items: flex-start;
 }
 
-
-
 .project-item-navigation {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.project-item-title, .project-item-description {
+.project-item-title,
+.project-item-description {
   margin-bottom: 15px;
 }
 
-.div-one img, .hidden-div-one img {
+.div-one img,
+.hidden-div-one img {
   border-radius: 10%;
   overflow: hidden;
   width: 100%;
@@ -272,16 +258,12 @@ p {
   font-size: 18px;
 }
 
-#proj-item-2 .div-two p:nth-child(2), #proj-item-3 .div-two p:nth-child(2), #proj-item-4 .div-two p:nth-child(2) {
-  font-style: italic;
-}
-
 .campus-paths {
-  border: 1px solid #F0F0F0;
+  border: 1px solid #f0f0f0;
 }
 
 #projects button {
-  background-color: #0C77F3;
+  background-color: #0c77f3;
   color: white;
   border: none;
   border-radius: 0.375rem;
@@ -298,7 +280,10 @@ p {
   background-color: blue;
 }
 
-#proj-item-1, #proj-item-2, #proj-item-3, #proj-item-4 {
+#proj-item-1,
+#proj-item-2,
+#proj-item-3,
+#proj-item-4 {
   margin-bottom: 40px;
 }
 /* resume section styling -------------------------------------------------- */
@@ -324,8 +309,8 @@ p {
   flex-direction: column;
   align-items: center;
   color: white;
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   padding-top: 20px;
@@ -397,7 +382,9 @@ p {
   background-image: url("../public/images/github-hover.png");
 }
 
-#linkedin-contact, #email-contact, #github-contact {
+#linkedin-contact,
+#email-contact,
+#github-contact {
   background-size: cover;
   height: 50px;
   width: 50px;
@@ -415,7 +402,8 @@ p {
   text-align: center;
 }
 
-#thanks-content-title > p, #contact > div > p {
+#thanks-content-title > p,
+#contact > div > p {
   margin-top: 15px;
 }
 
@@ -444,7 +432,8 @@ footer > p {
 /* Media Queries ----------------------------------------------------------- */
 /* Extra small devices (phones, 576px and down) */
 @media (max-width: 576px) {
-  html, body {
+  html,
+  body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -491,7 +480,8 @@ footer > p {
     text-align: center;
   }
 
-  .div-one, .tech-used {
+  .div-one,
+  .tech-used {
     display: none;
   }
 
@@ -505,7 +495,8 @@ footer > p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  html, body {
+  html,
+  body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -552,7 +543,9 @@ footer > p {
     text-align: center;
   }
 
-  #linkedin-contact, #email-contact, #github-contact {
+  #linkedin-contact,
+  #email-contact,
+  #github-contact {
     height: 60px;
     width: 60px;
   }
@@ -564,7 +557,8 @@ footer > p {
   footer > p {
     font-size: 14px;
   }
-  .div-one, .tech-used {
+  .div-one,
+  .tech-used {
     display: none;
   }
 
@@ -630,7 +624,9 @@ footer > p {
     display: none;
   }
 
-  .hidden-div-one, .project-item-description, .tech-used{
+  .hidden-div-one,
+  .project-item-description,
+  .tech-used {
     display: block;
   }
 
@@ -670,7 +666,10 @@ footer > p {
     font-size: 20px;
   }
 
-  #proj-item-1, #proj-item-2, #proj-item-3, #proj-item-4 {
+  #proj-item-1,
+  #proj-item-2,
+  #proj-item-3,
+  #proj-item-4 {
     display: flex;
     align-items: flex-start;
   }
