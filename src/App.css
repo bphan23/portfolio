@@ -92,6 +92,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
+  background-color: white;
 }
 
 #about-div {
@@ -114,7 +115,6 @@ p {
 
 #about-description p {
   text-align: left;
-  font-size: 20px;
 }
 
 /* skill section styling --------------------------------------------------- */
@@ -123,6 +123,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-transform: uppercase;
+  background-color: #f3f4f6;
 }
 
 #experience h3 {
@@ -340,6 +341,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f3f4f6;
 }
 
 #contact address {
@@ -395,6 +397,7 @@ p {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+  background-color: white;
 }
 
 #thanks-content-title {
