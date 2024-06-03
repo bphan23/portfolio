@@ -484,7 +484,7 @@ footer > p {
   }
 
   .div-one,
-  .tech-used {
+  .project-item-description {
     display: none;
   }
 
@@ -561,7 +561,7 @@ footer > p {
     font-size: 14px;
   }
   .div-one,
-  .tech-used {
+  .project-item-description {
     display: none;
   }
 
@@ -628,8 +628,7 @@ footer > p {
   }
 
   .hidden-div-one,
-  .project-item-description,
-  .tech-used {
+  .project-item-description {
     display: block;
   }
 

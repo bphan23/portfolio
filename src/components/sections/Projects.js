@@ -31,10 +31,14 @@ function Projects() {
 
             <div class="project-item-description">
               <p>
-                Refactored, automated, and scaled company’s 7 Form of RespecT
-                tool, resulting in a 98% acceleration of the generation process
+                Executed refactoring, automating, and scaling of the company’s 7
+                Forms of Respect tool
               </p>
-              <p>Integrated the Stripe payment API to enable monetization</p>
+              <p>
+                This resulted in a 98.33% acceleration of the generation process
+                (from 10 minutes down to 10 seconds)
+              </p>
+              <p>Integrated Stripe to enable monetization</p>
             </div>
             <div class="project-item-navigation">
               <button>
@@ -77,7 +81,7 @@ function Projects() {
           </div>
           <div class="div-two">
             <div class="project-item-title">
-              <h3>Out The Box, Sneaker Store</h3>
+              <h3>Out The Box</h3>
             </div>
             <div class="hidden-div-one">
               <img
@@ -99,7 +103,7 @@ function Projects() {
                 Integrated with Supabase for efficient database management and
                 secure user authentication
               </p>
-              <p>Utilized Stripe Payment API for secure payments</p>
+              <p>Utilized Stripe for secure payments</p>
             </div>
             <div class="project-item-navigation">
               <button>
@@ -161,40 +165,6 @@ function Projects() {
             <div class="project-item-navigation"></div>
           </div>
         </div>
-        {/*
-        <div id="proj-item-4" class="project-item" data-aos="fade-right">
-          <div class="div-one">
-            <img
-              src={process.env.PUBLIC_URL + "/images/website.jpg"}
-              alt="website sharer project"
-            />
-          </div>
-          <div class="div-two">
-            <div class="project-item-title">
-              <h3>Website Sharer</h3>
-            </div>
-            <div class="hidden-div-one">
-              <img
-                src={process.env.PUBLIC_URL + "/images/website.jpg"}
-                alt="website sharer project"
-              />
-            </div>
-            <div class="project-item-description">
-              <p>
-                Implemented a server-side web application where users could log
-                in with a Microsoft Azure account and make posts. Users are able
-                to like and comment on posts as well as go on other user
-                profiles
-              </p>
-              <br />
-              <p class="tech-used">
-                JavaScript, HTML, CSS, Node.js, Express.js, MongoDB, and
-                Microsoft Azure Authentication
-              </p>
-            </div>
-            <div class="project-item-navigation"></div>
-          </div>
-        </div> */}
       </div>
     </section>
   );
