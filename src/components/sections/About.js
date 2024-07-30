@@ -16,15 +16,15 @@ function About() {
         </div>
         <div id="about-description">
           <p>
-            Hello! I'm a recent gradaute from the University of Washington. I
-            graduated with a Bachelor of Science degree in Informatics with a
-            focus in software development, leveraging my skills to become a
-            frontend developer.
+            Hello! I'm a recent graduate from the University of Washington with
+            a Bachelor of Science degree in Informatics. I've been leveraging my
+            skills to become a software engineer.
           </p>
 
           <p>
-            My recent experience has been working on web applications and
-            growing my web development knowledge through various online courses.
+            Recently, I've focused on developing web applications and expanding
+            my web development knowledge through various online courses and
+            personal projects.
           </p>
           <p>
             When away from my computer, I love playing basketball, cooking, and

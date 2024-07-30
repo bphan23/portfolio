@@ -315,15 +315,15 @@
 
 @keyframes spin {
   0% {
-    content: "Front End Developer";
+    content: "Software Engineer";
   }
   33% {
-    content: "Software Engineer";
+    content: "Front End Developer";
   }
   66% {
     content: "Seattle Native";
   }
   100% {
-    content: "Front End Developer";
+    content: "Software Engineer";
   }
 }

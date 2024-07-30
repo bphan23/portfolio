@@ -6,8 +6,67 @@ function Projects() {
         <h2>Projects</h2>
       </div>
 
+      <div id="proj-item-1" class="project-item" data-aos="fade-left">
+        <div class="div-one">
+          <img
+            src={process.env.PUBLIC_URL + "/images/jordan-11.jpg"}
+            alt="out the box project"
+          />
+        </div>
+        <div class="div-two">
+          <div class="project-item-title">
+            <h3>Out The Box Sneakers</h3>
+          </div>
+          <div class="hidden-div-one">
+            <img
+              src={process.env.PUBLIC_URL + "/images/jordan-11.jpg"}
+              alt="out the box project"
+            />
+          </div>
+          <div class="project-item-description">
+            <p>
+              Engineered a high-performance e-commerce platform for sneakers,
+              facilitating user account creation, profile management, and
+              advanced search and filtering capabilities for sneaker purchases.
+            </p>
+            <p>
+              Leveraged React.js, JavaScript, HTML5, and Tailwind CSS to develop
+              a responsive and intuitive front-end interface.
+            </p>
+            <p>
+              Employed Supabase for scalable database management and robust user
+              authentication, ensuring data integrity and security.
+            </p>
+            <p>
+              Integrated Stripe API for secure and efficient payment processing,
+              optimizing the checkout workflow and enhancing user experience.
+            </p>
+          </div>
+          <div class="project-item-navigation">
+            <button>
+              <a
+                href="https://otb-sneakers.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Demo
+              </a>
+            </button>
+            <button>
+              <a
+                href="https://github.com/bphan23/otb-sneakers"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div id="project-container" data-aos="fade-up">
-        <div id="proj-item-1" class="project-item" data-aos="fade-right">
+        <div id="proj-item-2" class="project-item" data-aos="fade-right">
           <div class="div-one">
             <img
               id="cb-7-forms"
@@ -31,14 +90,17 @@ function Projects() {
 
             <div class="project-item-description">
               <p>
-                Executed refactoring, automating, and scaling of the company’s 7
-                Forms of Respect tool
+                Architected, designed, implemented, tested, and delivered highly
+                scalable products.
               </p>
               <p>
-                This resulted in a 98.33% acceleration of the generation process
-                (from 10 minutes down to 10 seconds)
+                Refactored, automated, and scaled the 7 Forms of Respect tool,
+                achieving a 98.33% reduction in generation time
               </p>
-              <p>Integrated Stripe to enable monetization</p>
+              <p>
+                Integrated Stripe for seamless monetization, enhancing the
+                tool's commercial capabilities.
+              </p>
             </div>
             <div class="project-item-navigation">
               <button>
@@ -72,62 +134,6 @@ function Projects() {
           </div>
         </div>
 
-        <div id="proj-item-2" class="project-item" data-aos="fade-left">
-          <div class="div-one">
-            <img
-              src={process.env.PUBLIC_URL + "/images/jordan-11.jpg"}
-              alt="out the box project"
-            />
-          </div>
-          <div class="div-two">
-            <div class="project-item-title">
-              <h3>Out The Box</h3>
-            </div>
-            <div class="hidden-div-one">
-              <img
-                src={process.env.PUBLIC_URL + "/images/jordan-11.jpg"}
-                alt="out the box project"
-              />
-            </div>
-            <div class="project-item-description">
-              <p>
-                Develop a sneaker e-commerce platform enabling users to create
-                accounts, update user information, seamlessly search, filter,
-                and purchase the most coveted sneakers in today’s market
-              </p>
-              <p>
-                This platform was crafted using React.js, JavaScript, HTML/CSS
-                for an intuitive and responsive user interface
-              </p>
-              <p>
-                Integrated with Supabase for efficient database management and
-                secure user authentication
-              </p>
-              <p>Utilized Stripe for secure payments</p>
-            </div>
-            <div class="project-item-navigation">
-              <button>
-                <a
-                  href="https://otb-sneakers.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Demo
-                </a>
-              </button>
-              <button>
-                <a
-                  href="https://github.com/bphan23/otb-sneakers"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </button>
-            </div>
-          </div>
-        </div>
-
         <div id="proj-item-3" class="project-item" data-aos="fade-right">
           <div class="div-one">
             <img
@@ -149,17 +155,18 @@ function Projects() {
             </div>
             <div class="project-item-description">
               <p>
-                Implemented a full-stack application enabling users to select
-                starting and ending building within the University of Washington
-                campus, generating the shortest path between the two buildings
+                Implemented a full-stack application to compute the shortest
+                path between buildings on the University of Washington campus.
               </p>
               <p>
-                Built application using React.js, TypeScript, and HTML/CSS for
-                the front-end
+                Engineered the front-end using React.js, TypeScript, and
+                HTML5/CSS to deliver a highly interactive and dynamic user
+                interface with real-time updates.
               </p>
               <p>
-                Utilized Java and Spark Java for the back-end database
-                operations
+                Employed Java and Spark Java for the back-end, leveraging
+                efficient data processing and database interactions to optimize
+                pathfinding algorithms and route computations.
               </p>
             </div>
             <div class="project-item-navigation"></div>

@@ -10,6 +10,7 @@ function Navbar() {
             <a href="#">Bryan Phan</a>
           </li>
           <input type="checkbox" id="check" />
+
           <span class="menu">
             <li>
               <a class="active" href="#home">
