@@ -9,26 +9,27 @@ function About() {
       <div id="about-div">
         <div id="about-image">
           <img
-            src={process.env.PUBLIC_URL + "/images/bryan-phan.jpg"}
+            src={process.env.PUBLIC_URL + "/images/bp_uw.jpg"}
             alt="Bryan Phan"
             class="about-item"
           />
         </div>
         <div id="about-description">
           <p>
-            Hello! I'm a recent graduate from the University of Washington with
-            a Bachelor of Science degree in Informatics. I've been leveraging my
-            skills to become a software engineer.
+            Hi! My name is Bryan Phan, and I graduated from the University of
+            Washington with a Bachelor's degree in Informatics.
           </p>
 
           <p>
-            Recently, I've focused on developing web applications and expanding
-            my web development knowledge through various online courses and
-            personal projects.
+            I’m currently pursuing a Master’s in Computer Science at Georgia
+            Tech, specializing in Computer Systems, to strengthen my foundation
+            in CS and explore topics like Artificial Intelligence, Machine
+            Learning, and Cloud Computing.
           </p>
           <p>
-            When away from my computer, I love playing basketball, cooking, and
-            spending time with family & friends.
+            When I’m not coding, you’ll find me on the basketball court,
+            experimenting in the kitchen, or enjoying quality time with family
+            and friends.
           </p>
         </div>
       </div>

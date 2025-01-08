@@ -6,7 +6,7 @@ function Resume() {
         <h2>Check Out My Resume!</h2>
         <button id="resume-btn">
           <a
-            href={process.env.PUBLIC_URL + "/bryan_phan-resume.pdf"}
+            href={process.env.PUBLIC_URL + "/grad-bp-resume.pdf"}
             target="_blank"
             rel="noreferrer"
           >

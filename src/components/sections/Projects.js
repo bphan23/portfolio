@@ -27,19 +27,20 @@ function Projects() {
             <p>
               Engineered a high-performance e-commerce platform for sneakers,
               facilitating user account creation, profile management, and
-              advanced search and filtering capabilities for sneaker purchases.
+              advanced search/filtering capabilities.
             </p>
             <p>
-              Leveraged React.js, JavaScript, HTML5, and Tailwind CSS to develop
-              a responsive and intuitive front-end interface.
+              Built a intuitive frontend with React.js, JavaScript, HTML5, and
+              Tailwind CSS for seamless user experience.
             </p>
             <p>
-              Employed Supabase for scalable database management and robust user
-              authentication, ensuring data integrity and security.
+              Leveraged Supabase for scalable database management and robust
+              user authentication.
             </p>
             <p>
-              Integrated Stripe API for secure and efficient payment processing,
-              optimizing the checkout workflow and enhancing user experience.
+              Implemented Stripe API to streamline payment processing,
+              optimizing the checkout workflow and improving transaction
+              efficiency.
             </p>
           </div>
           <div class="project-item-navigation">
