@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <footer>
-      <p>Bryan Phan © 2024</p>
+      <p>© 2025 Bryan Phan. All Rights Reserved.</p>
     </footer>
   );
 }

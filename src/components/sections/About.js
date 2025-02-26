@@ -3,7 +3,7 @@ function About() {
   return (
     <section id="about" data-aos="fade-up">
       <div class="title">
-        <h2>About Me</h2>
+        <h2>Hey World, I'm Bryan!</h2>
       </div>
 
       <div id="about-div">
@@ -22,9 +22,7 @@ function About() {
 
           <p>
             I’m currently pursuing a Master’s in Computer Science at Georgia
-            Tech, specializing in Computer Systems, to strengthen my foundation
-            in CS and explore topics like Artificial Intelligence, Machine
-            Learning, and Cloud Computing.
+            Tech, specializing in Interactive Intelligence (AI).
           </p>
           <p>
             When I’m not coding, you’ll find me on the basketball court,
